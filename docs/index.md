@@ -1,37 +1,141 @@
-## Welcome to GitHub Pages
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Justin's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-You can use the [editor on GitHub](https://github.com/hoangjustin/JustinNguyen.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Greetings,<br />
+							Im Justin Nguyen</h1>
+						<p>Data Analyst | B.S. Computer Science CSUF  <br />
+						SQL | Python | R | Tableau  </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
-### Markdown
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/hjustinnguyen/" class="icon brands fa-linkedin"><span class="label">fa-linkedin</span></a></li>
+							<li><a href="https://github.com/hoangjustin" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
 
-```markdown
-Syntax highlighted code block
+				<!-- Main -->
+					<div id="main">
 
-# Header 1
-## Header 2
-### Header 3
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="https://github.com/hoangjustin/SQL-Portfolio-Project/blob/main/Used%20Car%20Prices%20SQL.sql">Car Data Cleaning<br />
+										& Analysis w/ SQL & Tableau</a></h2>
+									</header>
+									<a href="https://public.tableau.com/app/profile/justin1786/viz/CarData_16425060096600/Dashboard1?publish=yes" class="image fit"><img src="images/tableau.png" alt="" /></a>
+									<p>In this project, we take raw car data and transform
+										it in a SQL Server to make it more usable for analysis.<br />
+										Created a dashboard for thisCar Data project for visualization of the analysis<br />
+									<ul class="actions special">
+										<li><a href="https://github.com/hoangjustin/SQL-Portfolio-Project/blob/main/Used%20Car%20Prices%20SQL.sql" class="button">View Project Code</a></li>
+										<li><a href="https://public.tableau.com/app/profile/justin1786/viz/CarData_16425060096600/Dashboard1?publish=yes" class="button">View Dashboard</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/hoangjustin/SQL-Portfolio-Project2/blob/main/human%20life%20expectancy%20SQL.sql">Human Life Expectancy<br />
+										Data Cleaning & Analysis w/ SQL & Tableau</a></h2>
+									</header>
+									<a href="https://public.tableau.com/app/profile/justin1786/viz/HumanLifeExpectancy_16430996119160/Dashboard1?publish=yes" class="image fit"><img src="images/tableau2.png" alt="" /></a>
+									<p>In this project, we take raw life expectancy average data from around the world and transform 
+										it in a SQL Server to make it more usable for analysis.<br />
+										Created a dashboard for this Human Life Expectancy project for visualization of the analysis<br />
+									<ul class="actions special">
+										<li><a href="https://github.com/hoangjustin/SQL-Portfolio-Project2/blob/main/human%20life%20expectancy%20SQL.sql" class="button">View Project Code</a></li>
+										<li><a href="https://public.tableau.com/app/profile/justin1786/viz/HumanLifeExpectancy_16430996119160/Dashboard1?publish=yes" class="button">View Dashboard</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/hoangjustin/Student-Performace/blob/main/Student_Performance.ipynb">Student Performance Correlation<br />
+										w/ Python</a></h2>
+									</header>
+									<a href="https://github.com/hoangjustin/Student-Performace/blob/main/Student_Performance.ipynb" class="image fit"><img src="images/student.png" alt="" /></a>
+									<p>In this project we look at what variables effect student performance on test scores</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/hoangjustin/Student-Performace/blob/main/Student_Performance.ipynb" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/hoangjustin/Machine-Learning-Project/blob/main/Machine_Learning_Project.ipynb">Applied Machine Learning<br />
+										w/ Python</a></h2>
+									</header>
+									<a href="https://github.com/hoangjustin/Machine-Learning-Project/blob/main/Machine_Learning_Project.ipynb" class="image fit"><img src="images/machine.png" alt="" /></a>
+									<p>In this project, we performed explantory data analysis with different models such as Logistic regression, Gaussian, and KNN</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/hoangjustin/Machine-Learning-Project/blob/main/Machine_Learning_Project.ipynb" class="button">View Project</a></li>
+									</ul>
+								</article>
+							</section>
 
-- Bulleted
-- List
+					</div>
 
-1. Numbered
-2. List
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+								<h3>Location</h3>
+								<p>Orange County, CA<br />
+								</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(408) 218-4249</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">hjustinnguyen@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/hjustinnguyen/" class="icon brands fa-linkedin"><span class="label">fa-linkedin</span></a></li>
+									<li><a href="https://github.com/hoangjustin" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+			</div>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hoangjustin/JustinNguyen.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+	</body>
+</html>
